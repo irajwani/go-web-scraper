@@ -6,14 +6,11 @@ import (
 	"github.com/irajwani/go-web-scraper/internal/parser"
 )
 
-type Options struct{}
-
 func Extract(url string) (string, error) {
-	// map Options → internal config
-	cfg := &config.Config{
-		URL: url,
-		// fill other fields from opts if needed
-	}
+
+	args := make([]string, 0)
+	args[0] = url
+	cfg, err := config.ParseFlags(args)
 
 	content, err := fetcher.FetchAndExtractContent(cfg.URL)
 	if err != nil {
