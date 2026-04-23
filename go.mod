@@ -1,4 +1,4 @@
-module github.com/copyleftdev/wt
+module github.com/irajwani/gowebscraper
 
 go 1.22.5
 

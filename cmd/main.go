@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/copyleftdev/wt/internal/config"
-	"github.com/copyleftdev/wt/internal/fetcher"
-	"github.com/copyleftdev/wt/internal/parser"
+	"github.com/irajwani/gowebscraper/internal/config"
+	"github.com/irajwani/gowebscraper/internal/fetcher"
+	"github.com/irajwani/gowebscraper/internal/parser"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/copyleftdev/wt/internal/config"
+	"github.com/irajwani/gowebscraper/internal/config"
 	"golang.org/x/net/html"
 )
 

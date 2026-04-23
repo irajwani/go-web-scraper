@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/copyleftdev/wt/internal/tags"
+	"github.com/irajwani/gowebscraper/internal/tags"
 )
 
 type Config struct {
