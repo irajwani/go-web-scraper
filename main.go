@@ -6,13 +6,9 @@ import (
 	"github.com/irajwani/go-web-scraper/internal/parser"
 )
 
-type Options struct {
-	// expose only what you want users to control
-	UserAgent string
-	// add more fields as needed
-}
+type Options struct{}
 
-func Extract(url string, opts *Options) (string, error) {
+func Extract(url string) (string, error) {
 	// map Options → internal config
 	cfg := &config.Config{
 		URL: url,
