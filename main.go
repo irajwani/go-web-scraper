@@ -8,7 +8,7 @@ import (
 
 func Extract(url string) (string, error) {
 
-	args := make([]string, 0)
+	args := make([]string, 1)
 	args[0] = url
 	cfg, err := config.ParseFlags(args)
 
