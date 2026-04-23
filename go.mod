@@ -1,4 +1,4 @@
-module github.com/irajwani/gowebscraper
+module github.com/irajwani/go-web-scraper
 
 go 1.22.5
 
